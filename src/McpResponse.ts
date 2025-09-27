@@ -31,7 +31,7 @@ export class McpResponse implements Response {
   #networkRequestsOptions?: {
     include: boolean;
     pagination?: PaginationOptions;
-    resourceTypes?: ResourceType[];
+    resourceTypes?: ResourceType[1];
   };
 
   setIncludePages(value: boolean): void {
